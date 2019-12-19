@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="4" result="Failed" total="4" passed="0" failed="4" inconclusive="0" skipped="0" asserts="0" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-12-03 06:19:43Z" end-time="2019-12-03 06:19:44Z" duration="1.092150">
+  <command-line><![CDATA["C:\Users\sahirrao.XPANXIONMAIL\source\repos\NUnitTest\packages\NUnit.ConsoleRunner.3.10.0\tools\nunit3-console.exe" NUnitTest.dll --where class=~UnitTest1]]></command-line>
+  <filter>
+    <class re="1">UnitTest1</class>
+  </filter>
+  <test-suite type="Assembly" id="0-1006" name="NUnitTest.dll" fullname="C:\Users\sahirrao.XPANXIONMAIL\source\repos\NUnitTest\NUnitTest\bin\Debug\NUnitTest.dll" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2019-12-03 06:19:44Z" end-time="2019-12-03 06:19:44Z" duration="0.141671" total="4" passed="0" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17763.0" platform="Win32NT" cwd="C:\Users\sahirrao.XPANXIONMAIL\source\repos\NUnitTest\NUnitTest\bin\Debug" machine-name="XIPL0647" user="sahirrao" user-domain="XPANXIONMAIL" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\sahirrao.XPANXIONMAIL\source\repos\NUnitTest\NUnitTest\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="5452" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1007" name="NUnitTest" fullname="NUnitTest" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2019-12-03 06:19:44Z" end-time="2019-12-03 06:19:44Z" duration="0.123206" total="4" passed="0" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1001" name="UnitTest1" fullname="NUnitTest.UnitTest1" classname="NUnitTest.UnitTest1" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2019-12-03 06:19:44Z" end-time="2019-12-03 06:19:44Z" duration="0.118537" total="4" passed="0" failed="4" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1004" name="ElementNotFoundException" fullname="NUnitTest.UnitTest1.ElementNotFoundException" methodname="ElementNotFoundException" classname="NUnitTest.UnitTest1" runstate="Runnable" seed="1810210900" result="Failed" start-time="2019-12-03 06:19:44Z" end-time="2019-12-03 06:19:44Z" duration="0.106792" asserts="0">
+          <failure>
+            <message><![CDATA[Element not found]]></message>
+            <stack-trace><![CDATA[   at NUnitTest.UnitTest1.ElementNotFoundException() in C:\Users\sahirrao.XPANXIONMAIL\source\repos\NUnitTest\NUnitTest\UnitTest1.cs:line 22
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[Element not found]]></message>
+              <stack-trace><![CDATA[   at NUnitTest.UnitTest1.ElementNotFoundException() in C:\Users\sahirrao.XPANXIONMAIL\source\repos\NUnitTest\NUnitTest\UnitTest1.cs:line 22
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+        <test-case id="0-1003" name="InvalidParameterException" fullname="NUnitTest.UnitTest1.InvalidParameterException" methodname="InvalidParameterException" classname="NUnitTest.UnitTest1" runstate="Runnable" seed="1727440100" result="Failed" start-time="2019-12-03 06:19:44Z" end-time="2019-12-03 06:19:44Z" duration="0.000754" asserts="0">
+          <failure>
+            <message><![CDATA[Invalid Parameter passed]]></message>
+            <stack-trace><![CDATA[   at NUnitTest.UnitTest1.InvalidParameterException() in C:\Users\sahirrao.XPANXIONMAIL\source\repos\NUnitTest\NUnitTest\UnitTest1.cs:line 17
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[Invalid Parameter passed]]></message>
+              <stack-trace><![CDATA[   at NUnitTest.UnitTest1.InvalidParameterException() in C:\Users\sahirrao.XPANXIONMAIL\source\repos\NUnitTest\NUnitTest\UnitTest1.cs:line 17
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+        <test-case id="0-1005" name="newTestMethod" fullname="NUnitTest.UnitTest1.newTestMethod" methodname="newTestMethod" classname="NUnitTest.UnitTest1" runstate="Runnable" seed="1210974012" result="Failed" start-time="2019-12-03 06:19:44Z" end-time="2019-12-03 06:19:44Z" duration="0.000651" asserts="0">
+          <failure>
+            <message><![CDATA[Invalid Parameter passed]]></message>
+            <stack-trace><![CDATA[   at NUnitTest.UnitTest1.newTestMethod() in C:\Users\sahirrao.XPANXIONMAIL\source\repos\NUnitTest\NUnitTest\UnitTest1.cs:line 27
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[Invalid Parameter passed]]></message>
+              <stack-trace><![CDATA[   at NUnitTest.UnitTest1.newTestMethod() in C:\Users\sahirrao.XPANXIONMAIL\source\repos\NUnitTest\NUnitTest\UnitTest1.cs:line 27
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+        <test-case id="0-1002" name="TestDataBug" fullname="NUnitTest.UnitTest1.TestDataBug" methodname="TestDataBug" classname="NUnitTest.UnitTest1" runstate="Runnable" seed="655503769" result="Failed" start-time="2019-12-03 06:19:44Z" end-time="2019-12-03 06:19:44Z" duration="0.000615" asserts="0">
+          <failure>
+            <message><![CDATA[Test Data issue]]></message>
+            <stack-trace><![CDATA[   at NUnitTest.UnitTest1.TestDataBug() in C:\Users\sahirrao.XPANXIONMAIL\source\repos\NUnitTest\NUnitTest\UnitTest1.cs:line 12
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[Test Data issue]]></message>
+              <stack-trace><![CDATA[   at NUnitTest.UnitTest1.TestDataBug() in C:\Users\sahirrao.XPANXIONMAIL\source\repos\NUnitTest\NUnitTest\UnitTest1.cs:line 12
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
